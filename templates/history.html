@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>History</title>
+<link rel="stylesheet" href="/static/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold">♻ Waste Classifier</a>
+    <div>
+      <a href="/upload">Upload</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/history">History</a>
+      <a href="/logout">Logout</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+<div class="glass-card">
+
+<h3 class="text-center mb-4">📊 History</h3>
+
+{% if history|length == 0 %}
+<p class="text-center text-muted">No history yet.</p>
+{% else %}
+
+<table class="table table-bordered table-hover text-center">
+<thead class="table-dark">
+<tr>
+<th>Date</th>
+<th>Image</th>
+<th>Result</th>
+<th>Confidence</th>
+<th>Bin</th>
+</tr>
+</thead>
+<tbody>
+{% for item in history %}
+<tr>
+<td>{{ item.date }}</td>
+<td><img src="/{{ item.image }}" width="80" class="rounded"></td>
+<td class="{% if item.result=='Recyclable' %}text-success{% elif item.result=='Non-Recyclable' %}text-danger{% else %}text-warning{% endif %}">
+{{ item.result }}
+</td>
+<td>{{ item.percentage }}%</td>
+<td>{{ item.bin }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+{% endif %}
+
+</div>
+</div>
+
+</body>
+</html>

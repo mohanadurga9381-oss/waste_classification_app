@@ -1,0 +1,100 @@
+[
+    {
+        "date": "2026-03-04 13:56:14",
+        "image": "uploads/mohanadurga9381@gmail.com/stock-photo-a-different-kinds-of-recyclable-waste-isolated-on-white-101092573.jpg",
+        "result": "Recyclable",
+        "percentage": 94.1,
+        "bin": "Blue Bin"
+    },
+    {
+        "date": "2026-03-04 14:04:33",
+        "image": "uploads/mohanadurga9381@gmail.com/stock-photo-a-different-kinds-of-recyclable-waste-isolated-on-white-101092573.jpg",
+        "result": "Recyclable",
+        "percentage": 94.1,
+        "bin": "Blue Bin"
+    },
+    {
+        "date": "2026-03-04 14:31:59",
+        "image": "uploads/mohanadurga9381@gmail.com/stock-photo-a-different-kinds-of-recyclable-waste-isolated-on-white-101092573.jpg",
+        "result": "Recyclable",
+        "percentage": 94.1,
+        "bin": "Blue Bin"
+    },
+    {
+        "date": "2026-03-04 18:40:49",
+        "image": "uploads/mohanadurga9381@gmail.com/cb_edits_30-01.jpeg",
+        "result": "Invalid Waste Image",
+        "percentage": 59.03,
+        "bin": "N/A"
+    },
+    {
+        "date": "2026-03-04 18:53:43",
+        "image": "uploads/mohanadurga9381@gmail.com/cb_edits_30-01.jpeg",
+        "result": "Invalid Waste Image",
+        "percentage": 59.03,
+        "bin": "N/A"
+    },
+    {
+        "date": "2026-03-04 19:01:01",
+        "image": "uploads/mohanadurga9381@gmail.com/DSC_6994.jpg",
+        "result": "Non-Recyclable",
+        "percentage": 90.87,
+        "bin": "Red Bin"
+    },
+    {
+        "date": "2026-03-04 19:01:15",
+        "image": "uploads/mohanadurga9381@gmail.com/AMMA_NANNA.jpg",
+        "result": "Recyclable",
+        "percentage": 99.74,
+        "bin": "Blue Bin"
+    },
+    {
+        "date": "2026-03-04 22:38:25",
+        "image": "uploads/mohanadurga9381@gmail.com/cb_edits_30-01.jpeg",
+        "result": "Invalid Image",
+        "percentage": 59.03,
+        "bin": "N/A"
+    },
+    {
+        "date": "2026-03-04 22:40:00",
+        "image": "uploads/mohanadurga9381@gmail.com/stock-photo-a-different-kinds-of-recyclable-waste-isolated-on-white-101092573.jpg",
+        "result": "Recyclable",
+        "percentage": 94.1,
+        "bin": "Blue Bin"
+    },
+    {
+        "date": "2026-03-04 23:10:46",
+        "image": "uploads/mohanadurga9381@gmail.com/recycle_bg.png",
+        "result": "Invalid Image",
+        "percentage": 60.96,
+        "bin": "N/A"
+    },
+    {
+        "date": "2026-03-04 23:15:19",
+        "image": "uploads/mohanadurga9381@gmail.com/stock-photo-a-different-kinds-of-recyclable-waste-isolated-on-white-101092573.jpg",
+        "result": "Recyclable",
+        "percentage": 94.1,
+        "bin": "Blue Bin"
+    },
+    {
+        "date": "2026-03-04 23:30:18",
+        "image": "uploads/mohanadurga9381@gmail.com/stock-photo-a-different-kinds-of-recyclable-waste-isolated-on-white-101092573.jpg",
+        "result": "Recyclable",
+        "percentage": 94.1,
+        "bin": "Blue Bin"
+    },
+    {
+        "date": "2026-03-05 12:09:14",
+        "image": "uploads/mohanadurga9381@gmail.com/Screenshot_2026-03-04_142509.png",
+        "result": "Invalid Image",
+        "percentage": 66.79,
+        "bin": "N/A"
+    },
+    {
+        "date": "2026-03-05 12:37:48",
+        "image": "uploads/mohanadurga9381@gmail.com/Screenshot_2026-03-04_142509.png",
+        "result": "Invalid Image",
+        "percentage": 66.79,
+        "bin": "N/A"
+    }
+]

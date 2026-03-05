@@ -1,0 +1,59 @@
+body {
+    background: url('/static/recycle_bg.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+    z-index: -1;
+}
+
+.glass-card {
+    background: rgba(255,255,255,0.92);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+.navbar-custom {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+}
+
+.navbar-custom a {
+    color: white !important;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navbar-custom a:hover {
+    color: #28a745 !important;
+}
+
+.btn-custom {
+    background: linear-gradient(45deg, #28a745, #17a2b8);
+    color: white;
+    border: none;
+}
+
+.center-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recyclable {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.non-recyclable {
+    color: #dc3545;
+    font-weight: bold;
+}
