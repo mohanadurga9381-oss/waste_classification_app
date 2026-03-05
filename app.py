@@ -15,6 +15,9 @@ UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg"}
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
+# 🔥 added this line
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
 MODEL_PATH = "waste_classification_model.h5"
 model = load_model(MODEL_PATH)
 
@@ -38,7 +41,6 @@ def classify_waste(img_path):
         max_confidence = max(recyclable_prob, non_recyclable_prob)
         confidence_gap = abs(recyclable_prob - non_recyclable_prob)
 
-        # 🔥 Invalid detection
         if max_confidence < 70 or confidence_gap < 20:
             return "Invalid Image", round(max_confidence, 2), "N/A"
 
@@ -141,7 +143,6 @@ def upload():
             image_path = save_path.replace("\\", "/")
             result, percentage, bin_name = classify_waste(save_path)
 
-            # Save history
             history_file = f"history/{session['username']}_history.json"
             os.makedirs("history", exist_ok=True)
 
